@@ -1,0 +1,9 @@
+homepage
+ - registration
+ -login
+Homgpage tabs
+ - Cures - 
+ - Voodoo dolls
+ - insporation/books
+ - Servies 
+ - Share your story 
