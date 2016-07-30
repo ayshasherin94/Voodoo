@@ -13,8 +13,7 @@ Primary style
 -------------------------------- */
 
 html * {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+
 }
 
 *, *:after, *:before {
@@ -23,8 +22,7 @@ html * {
 
 body {
 	font: {
-		size: 100%;
-		family: $primary-font; // variables inside partials > _variables.scss
+
 	}
 	color: $main-text;
 	background-color: $background;
@@ -40,11 +38,7 @@ img {
 }
 
 input, textarea {
-	font-family: $primary-font;
-	@include font-size(16px);
 
-	&::-ms-clear {
-    	display: none;
 	}
 }
 
@@ -268,25 +262,7 @@ xsigin/signup popup
 	}
 
 	label {
-		@include font-size(14px);
 
-		&.image-replace {
-			/* replace text with an icon */
-			display: inline-block;
-			position: absolute;
-			left: 15px;
-			@include center(y);
-			height: 20px;
-			width: 20px;
-
-			overflow: hidden;
-			text-indent: 100%;
-			white-space: nowrap;
-			color: transparent;
-			text-shadow: none;
-
-			background-repeat: no-repeat;
-			background-position: 50% 0;
 		}
 
 		&.cd-username {
@@ -336,44 +312,17 @@ xsigin/signup popup
 		}
 
 		&[type=submit] {
-			padding: 16px 0;
-			cursor: pointer;
-			background: $color-2;
-			color: #FFF;
-			font-weight: bold;
-			border: none;
-			@include appearance(none);
 
-			.no-touch &:hover, .no-touch &:focus {
-				background: lighten($color-2, 5%);
-				outline: none;
 			}
 		}
 	}
 
 	.hide-password {
-		display: inline-block;
-		position: absolute;
-		right: 0;
-		top: 0;
-		padding: 6px 15px;
-		border-left: 1px solid $color-3;
-		@include center(y); // see partials > _mixins.scss
-		@include font-size(14px);
-		color: $color-1;
+
 	}
 
 	.cd-error-message {
-		display: inline-block;
-		position: absolute;
-		left: -5px;
-		bottom: -35px;
-		background: rgba($red, .9);
-		padding: .8em;
-		z-index: 2;
-		color: #FFF;
-		@include font-size(13px);
-		@include border-radius;
+
 
 		/* prevent click and touch events */
 		pointer-events: none;
@@ -426,23 +375,12 @@ xsigin/signup popup
 }
 
 .cd-form-message {
-	padding: 1.4em 1.4em 0;
-	@include font-size(14px);
-	line-height: 1.4;
-	text-align: center;
 
-	@include MQ(S) {
-		padding: 2em 2em 0;
 	}
 }
 
 .cd-form-bottom-message {
-	position: absolute;
-	width: 100%;
-	left: 0;
-	bottom: -30px;
-	text-align: center;
-	@include font-size(14px);
+
 
 	a {
 		color: #FFF;
