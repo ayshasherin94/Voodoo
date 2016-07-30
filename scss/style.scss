@@ -22,7 +22,7 @@ body {
   height: 200%; // make higher or you'll see background when rotated
   transform-origin: top left;
   transition: transform .7s $snap;
-  
+
   // styling
   background-color: $whitey;
 }
@@ -30,7 +30,7 @@ body {
   // essential
   height: 50%; // compensate for higher .content
   overflow-y: auto; // set expected overflow
-  
+
   // styling
   padding: 50px 20%;
 }
@@ -47,12 +47,12 @@ body {
   height: 80px;
   background-color: $red;
   border-bottom-right-radius: 100%;
-  
+
   &:active {
     i {
       opacity: 0.8
     }
-  }  
+  }
   i {
     color: $whitey;
   }
@@ -80,13 +80,13 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  
+
   li {
     height: 60px;
     margin-bottom: 30px;
     transform: translateX(-300px);
     transition: transform .7s 0s $snap;
-    
+
     &:nth-child(2){
       margin-left: 40px;
     }
@@ -101,7 +101,7 @@ body {
     letter-spacing: 2px;
     color: darken($whitey, 30%);
     transition: color .2s;
-    
+
     .icon {
       position: relative;
       display: inline-block;
@@ -123,7 +123,7 @@ body {
         transition: border-color .2s;
       }
     }
-    
+
     &:hover {
       color: $whitey;
       .icon {
@@ -146,28 +146,28 @@ body {
   .content {
     transform: rotate(-30deg);
   }
-  
+
   // this will show hidden content overflow when rotated,
   // but will result in a jump, if you've already scrolled down the content
   // plus, you will lose your current reading position
   // fixable with JS, not gonna bother
-  
+
   /*.content_inner {
     height: 100%;
   }*/
-  
+
   .menu_open {
     transform: rotate(-20deg);
   }
   .menu_close {
     transform: rotate(0);
   }
-  
+
   .menu_items {
     li {
       transform: translateX(0);
       transition: transform .35s .45s $bounce;
-    
+
       &:nth-child(2){
         transition-delay: .47s;
       }
