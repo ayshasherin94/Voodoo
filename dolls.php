@@ -66,16 +66,22 @@ switch($_GET["action"]) {
   </span>
         <ul class="menu_items">
             <li><a href="cure.html"><i class="icon fa fa-signal fa-2x"></i> CURE</a></li>
-            <li><a href="scripts.html"><i class="icon fa fa-coffee fa-2x"></i> SCRIPTS</a></li>
-            <li><a href="dolls.html"><i class="icon fa fa-heart fa-2x"></i> DOLLS</a></li>
-            <li><a href="services.html"><i class="icon fa fa-coffee fa-2x"></i> SERVICES</a></li>
-            <li><a href="story.html"><i class="icon fa fa-heart fa-2x"></i> STORIES</a></li>
+            <li><a href="scripts.html"><i class="icon fa fa-signal fa-2x"></i> SCRIPTS</a></li>
+            <li><a href="dolls.html"><i class="icon fa fa-signal fa-2x"></i> DOLLS</a></li>
+            <li><a href="services.html"><i class="icon fa fa-heart fa-2x"></i> SERVICES</a></li>
+            <li><a href="story.html"><i class="icon fa fa-coffee fa-2x"></i> STORIES</a></li>
 
         </ul>
         <main class="content">
             <div class="content_inner">
 
-                <h1>Voodoo Dolls</h1>
+                              <div class="txt-heading">
+                    <h1><a href="index.html"><img src="globe.gif" alt="home" width="60px" height="60px"/></a>VOODOO DOLLS<a id="btnEmpty" href="shoppingcart.php"><img src="cart.png" alt="cart" align="right"/ height="50px" width="50px">{0}</h1></a>
+                </div>
+
+
+
+                <form method="post" action="shoppingcart.php?action=add&code=spellbook">
 
                 <form method="post" action="shoppingcart.php?action=add&code=plaindoll">
                     <div class="responsive">

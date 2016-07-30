@@ -75,13 +75,11 @@ switch($_GET["action"]) {
         <main class="content">
             <div class="content_inner">
 
-                <h1>THE CURES TO CURSE</h1>
-
-                <div id="shopping-cart">
-                    <div class="txt-heading">Shopping Cart
-                        <br>
-                        <a id="btnEmpty" href="shoppingcart.php?action=empty">Empty Cart</a></div>
+                                <div class="txt-heading">
+                    <h1><a href="index.html"><img src="globe.gif" alt="home" width="60px" height="60px"/></a>THE CURES TO CURSE<a id="btnEmpty" href="shoppingcart.php"><img src="cart.png" alt="cart" align="right"/ height="50px" width="50px">{0}</h1></a>
                 </div>
+
+
 
                 <form method="post" action="cure.php?action=add&code=angelfeather">
                     <div class="responsive">
