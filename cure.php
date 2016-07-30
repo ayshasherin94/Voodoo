@@ -68,8 +68,8 @@ switch($_GET["action"]) {
             <li><a href="cure.php"><i class="icon fa fa-signal fa-2x"></i> CURE</a></li>
             <li><a href="scripts.php"><i class="icon fa fa-signal fa-2x"></i> SCRIPTS</a></li>
             <li><a href="dolls.php"><i class="icon fa fa-signal fa-2x"></i> DOLLS</a></li>
-            <li><a href="services.php"><i class="icon fa fa-heart fa-2x"></i> SERVICES</a></li>
-            <li><a href="story.php"><i class="icon fa fa-coffee fa-2x"></i> STORIES</a></li>
+            <li><a href="services.html"><i class="icon fa fa-heart fa-2x"></i> SERVICES</a></li>
+            <li><a href="story.html"><i class="icon fa fa-coffee fa-2x"></i> STORIES</a></li>
 
         </ul>
         <main class="content">
