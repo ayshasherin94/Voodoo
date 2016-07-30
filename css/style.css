@@ -179,3 +179,7 @@ h1 {
 body {
   color: #584E4A;
 }
+
+img.home {
+   border-radius: 25px;
+}
