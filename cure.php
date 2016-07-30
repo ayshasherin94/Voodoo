@@ -83,7 +83,7 @@ switch($_GET["action"]) {
                         <a id="btnEmpty" href="shoppingcart.php?action=empty">Empty Cart</a></div>
                 </div>
 
-                <form method="post" action="shoppingcart.php?action=add&code=spellbook">
+                <form method="post" action="cure.php?action=add&code=angelfeather">
                     <div class="responsive">
                         <div class="img">
                             <a target="_blank" href="product-images/feather.png">
@@ -101,7 +101,7 @@ switch($_GET["action"]) {
                     </div>
                 </form>
 
-                <form method="post" action="shoppingcart.php?action=add&code=spellbook">
+                <form method="post" action="cure.php?action=add&code=flame">
                     <div class="responsive">
                         <div class="img">
                             <a target="_blank" href="product-images/flame.png">
@@ -118,7 +118,7 @@ switch($_GET["action"]) {
                         </div>
                     </div>
                 </form>
-                <form method="post" action="shoppingcart.php?action=add&code=spellbook">
+                <form method="post" action="cure.php?action=add&code=horns">
                     <div class="responsive">
                         <div class="img">
                             <a target="_blank" href="product-images/horns.png">
@@ -135,7 +135,7 @@ switch($_GET["action"]) {
                         </div>
                     </div>
                 </form>
-                <form method="post" action="shoppingcart.php?action=add&code=spellbook">
+                <form method="post" action="cure.php?action=add&code=wind">
                     <div class="responsive">
                         <div class="img">
                             <a target="_blank" href="product-images/wind.png">
