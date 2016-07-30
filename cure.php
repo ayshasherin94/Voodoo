@@ -65,9 +65,9 @@ switch($_GET["action"]) {
     <i class="menu_close fa fa-times fa-lg"></i>
   </span>
         <ul class="menu_items">
-            <li><a href="cure.html"><i class="icon fa fa-signal fa-2x"></i> CURE</a></li>
-            <li><a href="scripts.html"><i class="icon fa fa-signal fa-2x"></i> SCRIPTS</a></li>
-            <li><a href="dolls.html"><i class="icon fa fa-signal fa-2x"></i> DOLLS</a></li>
+            <li><a href="cure.php"><i class="icon fa fa-signal fa-2x"></i> CURE</a></li>
+            <li><a href="scripts.php"><i class="icon fa fa-signal fa-2x"></i> SCRIPTS</a></li>
+            <li><a href="dolls.php"><i class="icon fa fa-signal fa-2x"></i> DOLLS</a></li>
             <li><a href="services.html"><i class="icon fa fa-heart fa-2x"></i> SERVICES</a></li>
             <li><a href="story.html"><i class="icon fa fa-coffee fa-2x"></i> STORIES</a></li>
 
@@ -76,7 +76,10 @@ switch($_GET["action"]) {
             <div class="content_inner">
 
                                 <div class="txt-heading">
-                    <h1><a href="index.html"><img src="globe.gif" alt="home" width="60px" height="60px"/></a>THE CURES TO CURSE<a id="btnEmpty" href="shoppingcart.php"><img src="cart.png" alt="cart" align="right"/ height="50px" width="50px">{0}</h1></a>
+                    <h1><a href="index.html"><img src="globe.gif" alt="home" width="60px" height="60px"/></a>THE CURES TO CURSE<a id="btnEmpty" href="shoppingcart.php"><img src="cart.png" alt="cart" align="right"/ height="50px" width="50px">{<?php if(empty($_POST["quantity"])) {
+    echo "0"; 
+}else{
+    echo $_POST["quantity"];} ?>}</h1></a>
                 </div>
 
 
