@@ -1,39 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme The Band</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  
+   body{
+     background: url(Images/br.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+   }
+
+ 
+  .container {
+      padding: 80px 120px;
+  }
+ #centerHeader {
+    text-align: center;
 }
 
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color on hover */
-li a:hover {
-    background-color: #555;
-    color: white;
-}
-</style>
+  </style>
 </head>
 <body>
-<?php include_once("header.php");?>
-<h2>Angelic Demons</h2>
 
-<ul>
-  <li><a href="cure.html">Cure</a></li>
-  <li><a href="voodoodolls.html">Voodoo dolls</a></li>
-  <li><a href="services.html">Services </a></li>
-  <li><a href="sharestory.html">Share your Story</a></li>
-</ul>
+<h1><p id="centerHeader"><font face="luxury-platinum" color= "white">Angelic Demons</font></p></h1>	<!--FONT AND COLOR NEED TO BE CHANGED!!-->
+	<h5><p id="centerHeader"><font face="luxury-platinum" color= "white">Short description of the website </font></p></h5>
+
+
+  <div class="container">
+
+    
+    <div class="row text-center">
+      <div class="col-sm-3">
+        <div class="thumbnail">
+          <img src="Midtown.jpg" alt="New York" width="300" height="200">
+         <a class="btn" href="luxeDowntown.php"> <button class="btn">Luxe Downtown</button> </a>
+          <p><strong><font face="calibri" size="2px">Description</font></strong></p>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail">
+          <img src="Midtown.jpg" alt="New York" width="300" height="200">
+          <a class="btn" href="luxeDowntown.php"> <button class="btn">Luxe Downtown</button> </a>
+          <p><strong><font face="calibri" size="2px">Description</font></strong></p>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail">
+          <img src="Midtown.jpg" alt="New York" width="300" height="200">
+         <a class="btn" href="luxeDowntown.php"> <button class="btn">Luxe Downtown</button> </a>
+          <p><strong><font face="calibri" size="2px">Description</font></strong></p>
+        </div>
+      </div>
+	  <div class="col-sm-3">
+        <div class="thumbnail">
+          <img src="Midtown.jpg" alt="New York" width="500" height="400">
+          <a class="btn" href="luxeDowntown.php"> <button class="btn">Luxe Downtown</button> </a>
+          <p><strong><font face="calibri" size="2px">Description</font></strong></p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
