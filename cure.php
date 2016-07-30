@@ -76,7 +76,10 @@ switch($_GET["action"]) {
             <div class="content_inner">
 
                                 <div class="txt-heading">
-                    <h1><a href="index.html"><img src="globe.gif" alt="home" width="60px" height="60px"/></a>THE CURES TO CURSE<a id="btnEmpty" href="shoppingcart.php"><img src="cart.png" alt="cart" align="right"/ height="50px" width="50px">{<?php echo "$".$$_POST["quantity"]; ?>}</h1></a>
+                    <h1><a href="index.html"><img src="globe.gif" alt="home" width="60px" height="60px"/></a>THE CURES TO CURSE<a id="btnEmpty" href="shoppingcart.php"><img src="cart.png" alt="cart" align="right"/ height="50px" width="50px">{<?php if(empty($_POST["quantity"])) {
+    echo "0"; 
+}else{
+    echo $_POST["quantity"];} ?>}</h1></a>
                 </div>
 
 
