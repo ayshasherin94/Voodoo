@@ -6,6 +6,7 @@ html,
 body {
   height: 100%;
   overflow: hidden;
+  background-image: url('burn.png');
 }
 
 .page {
@@ -25,6 +26,7 @@ body {
 }
 
 .content_inner {
+
   height: 50%;
   overflow-y: auto;
   padding: 50px 20%;
@@ -178,4 +180,8 @@ h1 {
 
 body {
   color: #584E4A;
+}
+
+img.home {
+   border-radius: 25px;
 }

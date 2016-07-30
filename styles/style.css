@@ -1,5 +1,5 @@
    body{
-     background: url(product-images/background.jpg) no-repeat center center fixed; 
+     background: url(product-images/burn.png) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -17,5 +17,5 @@ p.serif {
 img {
     border: 2px solid;
     border-radius: 25px;
-	
+
 }
