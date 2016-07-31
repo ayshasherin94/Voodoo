@@ -9,13 +9,6 @@ Website: https://htmlcssphptutorial.wordpress.com
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Welcome Home</title>
-<link rel="stylesheet" href="css/style.css" />
-<style>  body  {
-    background-image: url("416909-empty.jpg");
-}
-    </style>
 </head>
 <body>
 <div class="form">
@@ -24,5 +17,6 @@ Website: https://htmlcssphptutorial.wordpress.com
 <p><a href="dashboard.php">Dashboard</a></p>
 <a href="logout.php">Logout</a>
 </div>
+
 </body>
 </html>
