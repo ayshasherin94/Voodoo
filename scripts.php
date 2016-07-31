@@ -8,7 +8,7 @@ switch($_GET["action"]) {
 		if(!empty($_POST["quantity"])) {
 			$productByCode = $db_handle->runQuery("SELECT * FROM tblproduct WHERE code='" . $_GET["code"] . "'");
 			$itemArray = array($productByCode[0]["code"]=>array('name'=>$productByCode[0]["name"], 'code'=>$productByCode[0]["code"], 'quantity'=>$_POST["quantity"], 'price'=>$productByCode[0]["price"]));
-			
+
 			if(!empty($_SESSION["cart_item"])) {
 				if(in_array($productByCode[0]["code"],$_SESSION["cart_item"])) {
 					foreach($_SESSION["cart_item"] as $k => $v) {
@@ -27,7 +27,7 @@ switch($_GET["action"]) {
 		if(!empty($_SESSION["cart_item"])) {
 			foreach($_SESSION["cart_item"] as $k => $v) {
 					if($_GET["code"] == $k)
-						unset($_SESSION["cart_item"][$k]);				
+						unset($_SESSION["cart_item"][$k]);
 					if(empty($_SESSION["cart_item"]))
 						unset($_SESSION["cart_item"]);
 			}
@@ -35,7 +35,7 @@ switch($_GET["action"]) {
 	break;
 	case "empty":
 		unset($_SESSION["cart_item"]);
-	break;	
+	break;
 }
 }
 ?>
@@ -77,7 +77,7 @@ switch($_GET["action"]) {
 
                                 <div class="txt-heading">
                     <h1><a href="index.html"><img src="globe.gif" alt="home" width="60px" height="60px"/></a>THE REVELATION<a id="btnEmpty" href="shoppingcart.php?action=empty"><img src="cart.png" alt="cart" align="right"/ height="50px" width="50px">{<?php if(empty($_POST["quantity"])) {
-    echo "0"; 
+    echo "0";
 }else{
     echo $_POST["quantity"];} ?>}</h1></a>
                 </div>
@@ -138,7 +138,7 @@ switch($_GET["action"]) {
                     <div class="responsive">
                         <div class="img">
                             <a target="_blank" href="product-images/mal.png">
-                                <img src="product-images/mal.png" alt="Mal's Spellbook" width="300" height="200">
+                                <img src="product-images/Mal.png" alt="Mal's Spellbook" width="300" height="200">
                             </a>
                             <div class="desc">Mal's Spellbook
                                 <br /> $1500.00
