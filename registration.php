@@ -29,21 +29,20 @@
 
         </ul>
   <main class="content">
-<div class="form" align="center"> <br> <br> <br> 
+<div class="form" align="center"> <br> <br> <br>
 <h1>Registration</h1>
 <form name="registration" action="" method="post">
-<input type="text" name="username" placeholder="Username" required /> <br>  <br> 
-<input type="email" name="email" placeholder="Email" required /> <br> <br> 
-<input type="password" name="password" placeholder="Password" required /> <br> <br> 
+<input type="text" name="username" placeholder="Username" required /> <br>  <br>
+<input type="email" name="email" placeholder="Email" required /> <br> <br>
+<input type="password" name="password" placeholder="Password" required /> <br> <br>
 <input type="submit" name="submit" value="Register" />
 </form>
 </div>
         </main>
-		
+
 		    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
     <script src="js/index.js"></script>
 </div>
 </body>
 </html>
-
